@@ -51,7 +51,7 @@ class _FancyOnBoardingState extends State<FancyOnBoarding>
   SlideDirection slideDirection = SlideDirection.none;
   double slidePercent = 0.0;
 
-  bool get isRTL => ui.window.locale.languageCode.toLowerCase() == "ar";
+  bool get isRTL => false;//ui.window.locale.languageCode.toLowerCase() == "ar";
 
   @override
   void initState() {
