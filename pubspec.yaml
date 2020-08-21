@@ -8,6 +8,10 @@ dependencies:
     sdk: flutter
   flutter_svg: ^0.18.0
 
+dependency_overrides:
+  image: last_version
+  xml: last_version
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
